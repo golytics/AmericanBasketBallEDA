@@ -1,4 +1,4 @@
-streamlit~=0.61.0
+streamlit
 lxml
 seaborn==0.10.0
 matplotlib~=3.4.3
