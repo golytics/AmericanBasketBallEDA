@@ -126,5 +126,8 @@ if st.button('Intercorrelation Heatmap'):
         ax = sns.heatmap(corr, mask=mask, vmax=1, square=True)
     st.pyplot()
 
+    
+st.info("Note: [The data source is: Basketball-reference.com]((https://www.basketball-reference.com/).")
+
 with open("style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
